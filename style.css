@@ -1,0 +1,390 @@
+
+body{
+     margin: 0%;
+     padding: 0%;
+     background-color: #222f3d;
+}
+
+  *{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    font-family: "poppins", sans-serif;
+
+  }
+
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ 
+ 
+ 
+}
+
+nav {
+ background-color: #333;
+ color: #fff;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ padding: 10px 20px;
+}
+
+#logo {
+ display: flex;
+ align-items: center;
+
+}
+
+#logo img {
+  height: 50px;
+  width: 50px; 
+}
+
+
+
+
+
+
+
+
+.search-bar {
+    display: flex;
+position: relative;
+width: 100%;
+max-width: 500px;
+margin: 0 auto;
+
+}
+
+
+#search-box {
+width: 100%;
+padding: 10px 15px;
+border: 1px solid #ccc;
+border-bottom-left-radius: 12px;
+border-top-left-radius: 12px;
+font-size: 16px;
+box-sizing: border-box;
+}
+#search-button {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+border: none;
+background: none;
+padding: 0 15px;
+cursor: pointer;
+fill: #999;
+}
+
+#search-button:hover {
+fill: #333;
+border: 2px solid orange;
+}
+
+
+.search-icon{
+             width: 45px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             font-size: 1.2rem;
+             background-color: rgb(255, 174, 0);
+             border-bottom-left-radius: 0px;
+             border-top-left-radius: 0px;
+             border-top-right-radius: 12px;
+             border-bottom-right-radius: 12px;
+}
+
+
+ .span{ 
+       font-size: 0.7rem;
+ }
+
+
+ .id{ 
+      justify-content: space-evenly;
+      align-items: center;
+      margin-right: 20px;
+
+
+ }
+ 
+ 
+ 
+ .cart-icon { 
+       font-size: 20px;
+       margin-right: 20px;
+ }
+
+ .cart-icon2 { 
+              font-size: 20px;
+              margin-right: 20px;
+ }
+
+ .cart-icon3 { 
+      font-size: 20px;
+      margin-right: 20px;
+}
+
+
+
+.nav-cart {  
+          font-size: 0.85rem;
+          font-weight: 700;
+          display: flex;
+}
+
+
+
+    
+.dropdown{ 
+      display: flex;
+      display: inline;
+      justify-content: space-evenly;
+      margin-left: 50px;
+      background-color: #222f3d;
+      background: #222f3d;
+
+}
+
+
+
+
+.dropbtn {
+ background-color: #222f3d;
+color: white;
+padding: 12px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+margin-left: 100px;
+}
+
+
+.dropdown:hover .dropdown-content {
+display: block;
+margin-left: 50px;
+}
+
+
+.dropdown-content a:hover {
+background-color: #ddd;
+
+}
+
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+margin-left: 50px;
+}
+
+
+.dropdown-content a {
+display: block;
+text-align: left;
+margin-left: 50px;
+}
+
+.dropdown-you-content{
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      margin-left: 100px;
+                      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section{
+
+            background-image: url(https://gallery.veenaworld.com/vw-assets/festivalUI/1709282492104236185/tablet_1709282496609.png?impolicy=nowatermark);
+            height: 400px;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+}
+
+
+.hero-msg{
+          background-color: white;
+          color: black;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0.85rem;
+          font-size: 80%;
+          margin-bottom: 25px;
+          
+}
+ 
+.hero-msg a{
+        color: #007185;
+}
+  .shop-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background: #e2e7e6;
+      
+  }
+
+  .box{
+       height: 400px;
+       width: 23%;
+       background-color: white;
+       padding: 20px 0px 15px;
+       margin-top: 15px;
+  }
+
+     .box-img{
+              height: 300px;
+              background-size: cover;
+              
+              margin-top: 1rem;
+              margin-bottom: 1rem ;
+
+     }
+     .box-content{
+                  margin-left: 10px;
+                  margin-right: 10px;
+     }
+      
+     .box-content p{
+                    color: #007185;
+     }
+
+
+
+
+
+    
+
+     footer{ 
+      margin: 15px;
+     }
+
+.foot-taxt{
+           background-color: #222f3d;
+           color: white;
+           display: flex;
+           justify-content: space-evenly;
+           height: 200px;
+
+           
+           
+
+}
+
+.foot-color{
+            color: #ff531a;
+}
+
+
+.foot-icon{
+           font-size: 30px;
+}
+
+
+
+
+.foot-panel1 {
+              background-color: #37475a;
+              color: white;
+              height: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 0.85rem;
+
+}
+
+.foot-panel2{
+            background-color: #222f3d;
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+
+}
+
+ul{ 
+    margin-top: 20px;
+}
+ul a{
+      display: block;
+      font-size: 0.85rem;
+      margin-top: 10px;
+      color: #dddddd;
+}
+
+.foot-panel3{
+             background-color: #222f3d;
+             color: white;
+             border-top: 0.5px solid white;
+             height: 70px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+
+}
+
+.foot-logo{
+          background-image: url(); 
+          background-size: cover;
+          height: 50px;
+          width: 100px;
+
+
+}
+  
+.foot-panel4{
+             background-color: #0f1111;
+             color: white;
+             height: 80px;
+             
+}
+
+.pages{
+       font-size: 0.7rem;
+       text-align: center;
+       padding-top: 25px;
+       
+}
+
+.copyright{
+          font-size: 0.7rem;
+          text-align: center;
+          padding-top: 5px;
+}
